@@ -1,0 +1,434 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BlogSafe Scanner Plus\n"
+"POT-Creation-Date: 2020-05-08 09:19-0500\n"
+"PO-Revision-Date: 2020-05-08 09:20-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: admin\n"
+"X-Poedit-SearchPath-2: includes\n"
+"X-Poedit-SearchPath-3: public\n"
+
+#: admin/BlogSafe_Scanner.php:48
+msgid "Updates detected since the last scan. Performing full scan."
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:51
+msgid "Retrieving official checksums..."
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:65
+msgid "Performing Scan"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:80
+msgid "Scan Complete. Files Scanned: "
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:88
+msgid "Scan Results"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:98 admin/BlogSafe_Scanner.php:101
+#: admin/BlogSafe_Scanner_Settings.php:170
+msgid "Update"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:99 admin/BlogSafe_Scanner.php:101
+msgid "Ignore"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:107
+msgid "No new, modified or missing files found"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:119
+msgid "Submit Manual Update"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:122
+msgid "Update All New Files"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:126
+msgid "Warning!"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:128
+msgid "Modified official files have been detected!"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:130
+msgid ""
+"If it is an official plugin or theme that's found to be modified, first, "
+"make sure that the plugin or theme is the latest version. If not, update it "
+"and run a full scan again."
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:133
+msgid ""
+"If it still shows up as modified, try deleting the theme or plugin and "
+"reinstalling it again from the WordPress website."
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:135
+msgid ""
+"Warning: by deleting and reinstalling a plugin or theme, any custom settings "
+"will likely be removed."
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:139
+msgid "There was an error "
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:156 admin/BlogSafe_Scanner.php:194
+msgid "Updated "
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:173
+msgid "Removing "
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:177
+msgid "Ignoring: "
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:189
+msgid "Not found: "
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:273 admin/BlogSafe_Scanner.php:274
+msgid "retrieving official checksums"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:281 admin/BlogSafe_Scanner.php:282
+msgid "retrieving plugin checksums"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:290 admin/BlogSafe_Scanner.php:291
+msgid "retrieving theme checksums"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:313
+msgid "accessing the database"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:343
+msgid "BlogSafe Scanner performed a quick scan at: "
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:346
+msgid "BlogSafe Scanner performed a full scan at: "
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:363
+msgid "New file: "
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:366
+msgid "Modified official file: "
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:368
+msgid "Modified file: "
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:375
+msgid "Modified"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:376
+msgid "Modified Official File!"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:385
+msgid "Status"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:385 admin/BlogSafe_Scanner_Ignores.php:71
+msgid "File Name"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:385
+msgid "Type"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:390
+msgid "Official"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:393
+msgid "Plugin"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:396
+msgid "Theme"
+msgstr ""
+
+#: admin/BlogSafe_Scanner.php:399
+msgid "Non-Official"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Ignores.php:15
+msgid "Ignored file"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Ignores.php:16
+msgid "Ignored files"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Ignores.php:46 admin/BlogSafe_Scanner_Ignores.php:55
+msgid "Remove Ignore"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Ignores.php:70
+msgid "ID"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Ignores.php:233
+msgid "Ignored Files"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Ignores.php:235
+msgid "Files currently being ignored by BlogSafe Scanner"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Ignores.php:247
+msgid ""
+"Whenever BlogSafe Scanner detects that one of the following files has been "
+"modified, it ignores it and does not report it as being modified."
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Mailer.php:12
+msgid "BlogSafe Scanner Results for "
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Mailer.php:33
+msgid "Total execution time: "
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Mailer.php:36
+msgid "No new or modified files found."
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:34
+msgid "For more information and instructions please visit our website at: "
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:41
+msgid ""
+"BlogSafe Scanner's database does not exist. Please deactivate and reactivate "
+"this plugin."
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:50 admin/BlogSafe_Scanner_Settings.php:141
+msgid "Settings"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:51
+msgid "Scanner"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:52
+msgid "Ignored FIles"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:53
+msgid "Help"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:55
+msgid "Register"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:63
+msgid "Full Scan"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:66
+msgid "Quick Scan"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:69
+msgid "System Scan"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:70
+msgid ""
+"BlogSafe's Scanner records the checksums of all of the files on your web "
+"server."
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:72
+msgid ""
+"It then compares those checksums to official checksums as well as checksums"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:74
+msgid "from previous scans and looks for discrepancies."
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:76
+msgid ""
+"A full system scan has not been run. Prior to being able to perform quick "
+"scans, a full scan must be performed."
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:79
+msgid ""
+"BlogSafe Scanner has detected a new version of WordPress has been installed. "
+"Please run a full scan now."
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:81
+msgid ""
+"BlogSafe Scanner has detected that new theme or plugin files have been "
+"installed or a theme or plugin version has changed. Please run a full scan "
+"now."
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:109
+msgid "Unable to register BlogSafe Scanner Plus"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:111
+msgid ""
+"BlogSafe Scanner Plus was unable to validate you registration information. "
+"If you believe the information is correct, please try again later or visit "
+"us at https://www.blogsafe.org and submit a support ticket"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:122
+msgid "BlogSafe Scanner Plus is already registered."
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Menu.php:137
+msgid "Security Check"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Official_Handler.php:63
+#: admin/BlogSafe_Scanner_Plugin_Handler.php:103
+msgid "Error reading official JSON file."
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Plugin_Handler.php:16
+msgid "Retrieving Wordpress plugin list"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Plugin_Handler.php:26
+msgid "Found plugin: "
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Plugin_Handler.php:33
+msgid "Plugins found: "
+msgstr ""
+
+#: admin/BlogSafe_Scanner_RegHandler.php:11
+msgid "Register "
+msgstr ""
+
+#: admin/BlogSafe_Scanner_RegHandler.php:12
+msgid "Enter your License ID and Registration Code.<br>"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_RegHandler.php:14
+msgid "License ID:"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_RegHandler.php:15
+msgid "Registration Code:"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_RegHandler.php:28
+msgid "Thank you for subscribing to BlogSafe Scanner Plus"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Settings.php:4
+msgid "Settings Updated"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Settings.php:68
+#: admin/BlogSafe_Scanner_Settings.php:76
+msgid "Additional email is invalid."
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Settings.php:143
+msgid "Notification"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Settings.php:144
+msgid "Send scan results to admin email ("
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Settings.php:146
+msgid "Email only when discrepancies found."
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Settings.php:148
+msgid ""
+"Additional emails to notify when changes are detected (separated by a comma)."
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Settings.php:150
+msgid "Schedule"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Settings.php:151
+msgid "Quick Scan Schedule"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Settings.php:153
+#: admin/BlogSafe_Scanner_Settings.php:161
+msgid "Never"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Settings.php:154
+#: admin/BlogSafe_Scanner_Settings.php:162
+msgid "Hourly"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Settings.php:155
+#: admin/BlogSafe_Scanner_Settings.php:163
+msgid "Daily"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Settings.php:156
+#: admin/BlogSafe_Scanner_Settings.php:164
+#: admin/class-blogsafe-scanner-plus-admin.php:66
+msgid "Weekly"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Settings.php:159
+msgid "Full Scan Schedule"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Settings.php:165
+#: admin/class-blogsafe-scanner-plus-admin.php:70
+msgid "Monthly"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Theme_Handler.php:23
+msgid "Retrieving Themes"
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Theme_Handler.php:33
+msgid "Checking Theme: "
+msgstr ""
+
+#: admin/BlogSafe_Scanner_Theme_Handler.php:47
+msgid "Themes Found: "
+msgstr ""
+
+#: includes/class-blogsafe-scanner-plus-activator.php:41
+msgid ""
+"You need to deactivate the free version of ---BlogSafe Scanner--- first."
+msgstr ""
